@@ -21,6 +21,7 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  height: 100%;
 }
 
 .container {
@@ -223,6 +224,11 @@ nav {
 //
 // .main
 //
+.content {
+  minHeight: 100%;
+  marginBottom: 72px;
+}
+
 
 .posts > .post {
   padding-bottom: 2em;
@@ -254,7 +260,8 @@ nav {
   }
 }
 
-.wrapper-footer {
+.footerSection {
+  height: 72px;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
