@@ -10,7 +10,7 @@
     <![endif]-->
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.scss" />
     
     <!-- 이건 뭔지 모르겠다 -->
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
@@ -51,12 +51,10 @@
     </div>
 
     <div class="footerSection">
-      <div class="container">
-        <footer class="footer col-md-12 text-center">
-          {% include svg-icons.html %}
-          <p>&copy; Copyright Eunkyeong Jang 2019</p>
-        </footer>
-      </div>
+      <footer class="footer col-md-12 text-center">
+        {% include svg-icons.html %}
+        <p>&copy; Copyright Eunkyeong Jang 2019</p>
+      </footer>
     </div>
 
     {% include analytics.html %}
