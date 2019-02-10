@@ -22,7 +22,6 @@ body {
   font: 18px/1.4 $helvetica;
   color: $darkGray;
   height: 100%;
-  position: relative;
 }
 
 .container {
@@ -228,6 +227,7 @@ nav {
 
 .content {
   minHeight: 100%;
+  position: relative;
 }
 
 

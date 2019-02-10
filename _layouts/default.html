@@ -48,14 +48,16 @@
       <div id="main" role="main" class="container">
         {{ content }}
       </div>
+
+      <div class="footerSection">
+        <footer class="footer col-md-12 text-center">
+          {% include svg-icons.html %}
+          <p>&copy; Copyright Eunkyeong Jang 2019</p>
+        </footer>
+      </div>
     </div>
 
-    <div class="footerSection">
-      <footer class="footer col-md-12 text-center">
-        {% include svg-icons.html %}
-        <p>&copy; Copyright Eunkyeong Jang 2019</p>
-      </footer>
-    </div>
+
 
     {% include analytics.html %}
   </body>
